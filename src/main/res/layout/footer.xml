@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.ContentLoadingProgressBar
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="2"
+        android:layout_gravity="right"
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleLarge"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_marginLeft="-70dp"
+        android:gravity="center_vertical"
+        android:text="拼命加载中......"
+        android:textColor="@color/colorAccent"
+        android:layout_weight="2"
+        android:layout_height="48dp" />
+</LinearLayout>

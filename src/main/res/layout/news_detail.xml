@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/content"
+        android:text="在墨迹天气上，每天有超过 5 亿次的天气查询需求，这个数字甚至要大于 Twitter 每天发帖量。墨迹天气已经集成了多语言版本，可根据手机系统语言自动适配，用户覆盖包括中国大陆、港澳台，日韩及东南亚、欧美等全球各地用户。运营团队每天最关心的是这些用户正在如何使用墨迹，在他们操作中透露了哪些个性化需求。"
+        android:textColor="#666666"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:src="@drawable/images"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <WebView
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
